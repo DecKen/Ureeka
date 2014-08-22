@@ -10,29 +10,29 @@ $categories_tmp = array_unshift($zm_categories, "Select a category:");
 
 $options = array (
 
-	array(  "name" => "Homepage options",
+	array(  "name" => "主页选项",
             "type" => "title",
 			"desc" => "",
         ),
 		
 	array(  "type" => "open"),
 	
-	array( 	"name" => "Site Logo Image",
+	array( 	"name" => "Logo图像",
 			"desc" => "Enter the logo image url here",
 			"id" => $shortname."_logo",
 			"std" => get_bloginfo('template_directory')."/images/logo.png",
             "type" => "text"), 		
 	
 	
-	array(  "name" => "Home page content",
-			"desc" => "Select between product listings or blog posts to display on homepage",
+	array(  "name" => "主页默认内容",
+			"desc" => "书籍列表展示或者博客文章",
 			"id" => $shortname."_home",
             "type" => "select",		
 			"options" => array('books', 'blog'),		
    		    "std" => ""),
 			
-	array( 	"name" => "Number of books on homepage",
-			"desc" => "Applicable only if you select the Books to show as homepage content",
+	array( 	"name" => "首页展示书籍的数量",
+			"desc" => "只有主页选择书籍展示的时候此项才生效",
 			"id" => $shortname."_home_count",
 			"std" => "12",
             "type" => "text"), 
@@ -44,7 +44,7 @@ $options = array (
 
 	
    		
-	array(  "name" => "125 x 125 banner Settings",
+	array(  "name" => "125 x 125 banner 设置",
             "type" => "title",
 			"desc" => "You can setup four 125 x 125 banners on your sidebar from here",
        ), 
@@ -52,105 +52,105 @@ $options = array (
 	array("type" => "open"),
 	
 	
-	array("name" => "Banner-1 Image",
-			"desc" => "Enter your 125 x 125 banner image url here.",
+	array("name" => "Banner-1 图像",
+			"desc" => "输入 125 x 125 banner 图像链接",
             "id" => $shortname."_banner1",
         	"std" => "http://fabthemes.com/images/webhostinghub.png",
             "type" => "text"), 
 			
-	array("name" => "Banner-1 Image alt tag",
-			"desc" => "Enter your banner alt tag.",
+	array("name" => "Banner-1 图像 alt 标签",
+			"desc" => "输入 alt 标签.",
             "id" => $shortname."_alt1",
         	"std" => "Reliable web hosting from WebHostingHub.com.",
             "type" => "text"),    
 	  
 	array("name" => "Banner-1 Url",
-			"desc" => "Enter the banner-1 url here.",
+			"desc" => "输入 banner-1 的url.",
             "id" => $shortname."_url1",
             "std" => "",
             "type" => "text"),    
 			
-	array("name" => "Banner-1 link title",
-			"desc" => "Enter the banner-1 title here.",
+	array("name" => "Banner-1 链接标题",
+			"desc" => "输入 banner-1 的标题.",
             "id" => $shortname."_lab1",
             "std" => "Web Hosting Hub - Cheap reliable web hosting.",
             "type" => "text"),   
 	
 	array("type" => "break"),
 	
-	array("name" => "Banner-2 Image",
-			"desc" => "Enter your 125 x 125 banner image url here.",
+	array("name" => "Banner-2 图像",
+			"desc" => "输入 125 x 125 banner 图像链接.",
             "id" => $shortname."_banner2",
             "std" => "http://fabthemes.com/images/pcnames.png",
             "type" => "text"),    
 	
-	array("name" => "Banner-2 Image alt tag",
-			"desc" => "Enter your banner alt tag.",
+	array("name" => "Banner-2 图像 alt 标签",
+			"desc" => "输入 alt 标签.",
             "id" => $shortname."_alt2",
         	"std" => "Domain name search and availability check by PCNames.com.",
             "type" => "text"),    	   
 	   
 	   
 	array("name" => "Banner-2 Url",
-			"desc" => "Enter the banner-2 url here.",
+			"desc" => "输入 banner-2 的url.",
             "id" => $shortname."_url2",
             "std" => "http://www.pcnames.com/",
             "type" => "text"), 
 
-	array("name" => "Banner-2 link title",
-			"desc" => "Enter the banner-2 title here.",
+	array("name" => "Banner-2 链接标题",
+			"desc" => "输入 banner-2 的标题.",
             "id" => $shortname."_lab2",
             "std" => "PC Names - Domain name search and availability check",
             "type" => "text"),   
 
 	array("type" => "break"),		
 			
-	array("name" => "Banner-3 Image",
-			"desc" => "Enter your 125 x 125 banner image url here.",
+	array("name" => "Banner-3 图像",
+			"desc" => "输入 125 x 125 banner 图像链接.",
             "id" => $shortname."_banner3",
             "std" => "http://fabthemes.com/images/designcontest.png",
             "type" => "text"),  
 
-	array("name" => "Banner-3 Image alt tag",
-			"desc" => "Enter your banner alt tag.",
+	array("name" => "Banner-3 图像 alt 标签",
+			"desc" => "输入 alt 标签.",
             "id" => $shortname."_alt3",
         	"std" => "Website and logo design contests at DesignContest.com.",
             "type" => "text"),    			
 	   
 	array("name" => "Banner-3 Url",
-			"desc" => "Enter the banner-3 url here.",
+			"desc" => "输入 banner-3 的url.",
             "id" => $shortname."_url3",
             "std" => "http://www.designcontest.com/",
             "type" => "text"),
 
-	array("name" => "Banner-3 link title",
-			"desc" => "Enter the banner-3 title here.",
+	array("name" => "Banner-3 链接标题",
+			"desc" => "输入 banner-3 的标题.",
             "id" => $shortname."_lab3",
             "std" => "Design Contest - Logo and website design contests",
             "type" => "text"), 		
 
 	array("type" => "break"),
 			
-	array(  "name" => "Banner-4 Image",
-			"desc" => "Enter your 125 x 125 banner image url here.",
+	array(  "name" => "Banner-4 图像",
+			"desc" => "输入 125 x 125 banner 图像链接.",
             "id" => $shortname."_banner4",
             "std" => "http://fabthemes.com/images/webhostingrating.png",
             "type" => "text"),    
 
-	array(  "name" => "Banner-4 Image alt tag",
-			"desc" => "Enter your banner alt tag.",
+	array(  "name" => "Banner-4 图像 alt 标签",
+			"desc" => "输入 alt 标签.",
             "id" => $shortname."_alt4",
         	"std" => "Reviews of the best cheap web hosting providers at WebHostingRating.com.",
             "type" => "text"),    
 			
 	array(  "name" => "Banner-4 Url",
-			"desc" => "Enter the banner-4 url here.",
+			"desc" => "输入 banner-4 的url.",
             "id" => $shortname."_url4",
             "std" => "http://webhostingrating.com",
             "type" => "text"),
 	
-	array(  "name" => "Banner-4 link title",
-			"desc" => "Enter the banner-4 title here.",
+	array(  "name" => "Banner-4 链接标题",
+			"desc" => "输入 banner-4 的标题.",
             "id" => $shortname."_lab4",
             "std" => "Web Hosting Rating - Customer reviews of the best web hosts",
             "type" =>"text"), 	
@@ -191,7 +191,7 @@ function mytheme_add_admin() {
         }
     }
 
-    add_theme_page($themename." Options", "$themename Options", 'edit_themes', basename(__FILE__), 'mytheme_admin');
+    add_theme_page($themename." Options", "$themename 选项", 'edit_themes', basename(__FILE__), 'mytheme_admin');
 	//add_menu_page($themename." Options", "$themename Options", 'edit_themes', basename(__FILE__), 'mytheme_admin');  
 }
 
@@ -212,8 +212,8 @@ function mytheme_admin() {
 
 <h2 class="wraphead" style="margin:10px 0px; padding:15px 10px; font-family:arial black; font-style:normal; background:#B3D5EF;"><b><?php echo$themename; ?> theme options</b></h2>
    <?php
-   if ( $_REQUEST['saved'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings saved.</strong></p></div>';
-    if ( $_REQUEST['reset'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings reset.</strong></p></div>';
+   if ( $_REQUEST['saved'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.'设置已保存</strong></p></div>';
+    if ( $_REQUEST['reset'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' 设置已重置.</strong></p></div>';
 	?>
 <form method="post">
 
@@ -328,13 +328,13 @@ case "checkbox":
 ?>
 
 <p class="submit">
-<input name="save" type="submit" value="Save changes" />
+<input name="save" type="submit" value="保存并生效" />
 <input type="hidden" name="action" value="save" />
 </p>
 </form>
 <form method="post">
 <p class="submit">
-<input name="reset" type="submit" value="Reset" />
+<input name="reset" type="submit" value="重置" />
 <input type="hidden" name="action" value="reset" />
 </p>
 </form>
