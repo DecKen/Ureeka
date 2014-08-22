@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ureeka\n"
 "POT-Creation-Date: 2014-08-22 15:50+0800\n"
-"PO-Revision-Date: 2014-08-22 16:03+0800\n"
+"PO-Revision-Date: 2014-08-22 16:23+0800\n"
 "Last-Translator: DecKen <hdq1993@gmail.com>\n"
 "Language-Team: DecKen <hdq1993@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.8\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Poedit-Basepath: ../../../..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -164,19 +164,19 @@ msgstr ""
 
 #: Desktop/Desktop/Ureeka/functions.php:55
 msgid "Primary Navigation"
-msgstr ""
+msgstr "主导航"
 
 #: Desktop/Desktop/Ureeka/functions.php:96
 msgid "&laquo; Older Entries"
-msgstr ""
+msgstr "&laquo; 更旧的文章"
 
 #: Desktop/Desktop/Ureeka/functions.php:97
 msgid "Newer Entries &raquo;"
-msgstr ""
+msgstr "更新的文章 &raquo;"
 
 #: Desktop/Desktop/Ureeka/lib/add_meta_box.php:7
 msgid "Book review details"
-msgstr "详情"
+msgstr "书籍详情"
 
 #: Desktop/Desktop/Ureeka/lib/add_meta_box.php:19
 #, fuzzy

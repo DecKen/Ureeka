@@ -52,12 +52,12 @@ function get_image_url(){
 /* CUSTOM MENUS */	
 
 register_nav_menus( array(
-		'primary' => __( 'Primary Navigation', '' ),
+		'primary' => __( 'Primary Navigation', 'ureeka' ),
 	) );
 
 function fallbackmenu(){ ?>
 			<div id="submenu">
-				<ul><li> Go to Adminpanel > Appearance > Menus to create your menu. You should have WP 3.0+ version for custom menus to work.</li></ul>
+				<ul><li>目前还没有菜单，去后台 > 外观 > 菜单 创建你的自定义菜单吧，WP3.0以上的版本才支持自定义菜单功能</li></ul>
 			</div>
 <?php }	
 
@@ -93,8 +93,8 @@ function getpagenavi(){
 <?php if(function_exists('wp_pagenavi')) : ?>
 <?php wp_pagenavi() ?>
 <?php else : ?>
-        <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries','web2feeel')) ?></div>
-        <div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;','web2feel')) ?></div>
+        <div class="alignleft"><?php next_posts_link(__('&laquo; Older Entries','ureeka')) ?></div>
+        <div class="alignright"><?php previous_posts_link(__('Newer Entries &raquo;','ureeka')) ?></div>
         <div class="clear"></div>
 <?php endif; ?>
 

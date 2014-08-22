@@ -14,17 +14,36 @@ add_action('add_meta_boxes', 'add_custom_meta_box');
 
 // Field Array
 $prefix = 'fabthemes_';
+// $custom_meta_fields = array(
+// 	array(
+// 		'label'	=> __('Book author', 'ureeka'),
+// 		'desc'	=> __('Name of the book author', 'ureeka'),
+// 		'id'	=> $prefix.'author',
+// 		'type'	=> 'text'
+// 	),
+	
+// 	array(
+// 		'label'	=> __('Book rating score', 'ureeka'),
+// 		'desc'	=> __('Give a rating between 0 to 5.', 'ureeka'),
+// 		'id'	=> $prefix.'slider',
+// 		'type'	=> 'slider',
+// 		'min'	=> '0',
+// 		'max'	=> '5',
+// 		'step'	=> '1'
+// 	)
+// );
+
 $custom_meta_fields = array(
 	array(
-		'label'	=> __('Book author', 'ureeka'),
-		'desc'	=> __('Name of the book author', 'ureeka'),
+		'label'	=> '该书作者',
+		'desc'	=> '该书作者的名字',
 		'id'	=> $prefix.'author',
 		'type'	=> 'text'
 	),
 	
 	array(
-		'label'	=> __('Book rating score', 'ureeka'),
-		'desc'	=> __('Give a rating between 0 to 5.', 'ureeka'),
+		'label'	=> '评分',
+		'desc'	=> '给一个0到5之间的评分',
 		'id'	=> $prefix.'slider',
 		'type'	=> 'slider',
 		'min'	=> '0',

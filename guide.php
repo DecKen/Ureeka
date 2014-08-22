@@ -2,7 +2,7 @@
 add_action('admin_menu', 't_guide');
 
 function t_guide() {
-	add_theme_page('How to use the theme', 'Theme user guide', 8, 'user_guide', 't_guide_options');
+	add_theme_page('How to use the theme', '主题使用手册', 8, 'user_guide', 't_guide_options');
 	
 }
 
@@ -10,7 +10,7 @@ function t_guide_options() {
 ?>
 <div class="wrap">
 
-<h2>Theme user guide</h2>
+<h2>主题使用手册</h2>
 
 <div class="opwrap">
 

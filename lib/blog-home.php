@@ -11,10 +11,10 @@ $wp_query->query('paged='.$paged);
 <div class="post" id="post-<?php the_ID(); ?>">
 
 <div class="title">
-	<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
+	<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="点击查看 <?php the_title(); ?>"><?php the_title(); ?></a></h2>
 </div>
 <div class="postmeta">
-	<span class="author">Posted by <?php the_author(); ?> </span> <span class="clock">  <?php the_time('M - j - Y'); ?></span> <span class="comm"><?php comments_popup_link('0 Comment', '1 Comment', '% Comments'); ?></span>
+	<span class="author">发布者： <?php the_author(); ?> </span> <span class="clock">  <?php the_time('Y-m-d'); ?></span> <span class="comm"><?php comments_popup_link('占个沙发', '1条评论', '%条评论'); ?></span>
 </div>
 
 <div class="entry">
@@ -29,7 +29,7 @@ if ( has_post_thumbnail() ) { ?>
 <div class="clear"></div>
 </div>
 <div class="singleinfo">
-<span class="category">Categories: <?php the_category(', '); ?> </span>
+<span class="category">分类: <?php the_category(', '); ?> </span>
 </div>
 </div>
 
