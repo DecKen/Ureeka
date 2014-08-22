@@ -6,23 +6,23 @@
 <div class="post clearfix" id="post-<?php the_ID(); ?>">
 
 <div class="title">
-<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
+<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="点击查看 <?php the_title(); ?>"><?php the_title(); ?></a></h2>
 </div>
 
 <div class="postmeta">
-		<span class="author">Posted by <?php the_author(); ?> </span> 
-		<span class="clock"> Posted on <?php the_time('M - j - Y'); ?> </span>
-		<span class="comm"><?php comments_popup_link('0 Comment', '1 Comment', '% Comments'); ?></span>
+		<span class="author">发布者： <?php the_author(); ?> </span> 
+		<span class="clock"> 发布时间: <?php the_time('Y-m-d'); ?> </span>
+		<span class="comm"><?php comments_popup_link('占个沙发', '1条评论', '%条评论'); ?></span>
 </div>
 
 <div class="entry">
 	<?php the_content('Read the rest of this entry &raquo;'); ?>
 	<div class="clear"></div>
-	<?php wp_link_pages(array('before' => '<p><strong>Pages: </strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
+	<?php wp_link_pages(array('before' => '<p><strong>页码: </strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 </div>
 
 <div class="postmeta">
-<span class="categori">Categories: <?php the_category(', '); ?> </span>
+<span class="categori">分类: <?php the_category(', '); ?> </span>
 </div>
 
 </div>
