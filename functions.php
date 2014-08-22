@@ -5,6 +5,12 @@ include 'lib/add_meta_box.php';
 include 'theme_options.php';
 include 'guide.php';
 
+/* support localization */
+add_action('after_setup_theme', 'my_theme_setup');
+function my_theme_setup(){
+    load_theme_textdomain('ureeka', get_template_directory() . '/languages');
+}
+
 /* SIDEBARS */
 if ( function_exists('register_sidebar') )
 

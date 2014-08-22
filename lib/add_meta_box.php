@@ -4,7 +4,7 @@
 function add_custom_meta_box() {
     add_meta_box(
 		'custom_meta_box', // $id
-		'Book review details', // $title 
+		__('Book review details', 'ureeka'), // $title 
 		'show_custom_meta_box', // $callback
 		'book', // $page
 		'normal', // $context
@@ -16,15 +16,15 @@ add_action('add_meta_boxes', 'add_custom_meta_box');
 $prefix = 'fabthemes_';
 $custom_meta_fields = array(
 	array(
-		'label'	=> 'Book author',
-		'desc'	=> 'Name of the book author',
+		'label'	=> __('Book author', 'ureeka'),
+		'desc'	=> __('Name of the book author', 'ureeka'),
 		'id'	=> $prefix.'author',
 		'type'	=> 'text'
 	),
 	
 	array(
-		'label'	=> 'Book rating score',
-		'desc'	=> 'Give a rating between 0 to 5.',
+		'label'	=> __('Book rating score', 'ureeka'),
+		'desc'	=> __('Give a rating between 0 to 5.', 'ureeka'),
 		'id'	=> $prefix.'slider',
 		'type'	=> 'slider',
 		'min'	=> '0',

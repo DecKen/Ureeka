@@ -7,7 +7,7 @@
         || !dynamic_sidebar("Footer") ) : ?>  
 
 	<li class="botwid">
-				<h3 class="bothead"><?php _e( '文章归档', '' ); ?></h3>
+				<h3 class="bothead"><?php _e('Archive', 'ureeka'); ?></h3>
 				<ul>
 						<?php wp_get_archives( 'type=monthly' ); ?>
 				</ul>

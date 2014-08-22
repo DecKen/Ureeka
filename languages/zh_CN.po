@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ureeka\n"
+"POT-Creation-Date: 2014-08-22 15:50+0800\n"
+"PO-Revision-Date: 2014-08-22 16:03+0800\n"
+"Last-Translator: DecKen <hdq1993@gmail.com>\n"
+"Language-Team: DecKen <hdq1993@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Desktop/Desktop/Ureeka/FT/FT_scope.php:82
+msgid "Site Logo"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/FT_scope.php:97
+msgid "Maximum width (px)"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/FT_scope.php:106
+msgid "Maximum height (px)"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-framework-admin.php:92
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-framework-admin.php:93
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-framework-admin.php:338
+msgid "Theme Options"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-framework-admin.php:208
+msgid "Save Options"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-framework-admin.php:209
+msgid "Restore Defaults"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-framework-admin.php:209
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-framework-admin.php:239
+msgid "Default options restored."
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-framework-admin.php:291
+msgid "Options saved."
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-media-uploader.php:66
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-media-uploader.php:68
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:277
+msgid "No Repeat"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:278
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:279
+msgid "Repeat Vertically"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:280
+msgid "Repeat All"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:293
+msgid "Top Left"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:294
+msgid "Top Center"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:295
+msgid "Top Right"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:296
+msgid "Middle Left"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:297
+msgid "Middle Center"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:298
+msgid "Middle Right"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:299
+msgid "Bottom Left"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:300
+msgid "Bottom Center"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:301
+msgid "Bottom Right"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:314
+msgid "Scroll Normally"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:315
+msgid "Fixed in Place"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:389
+msgid "Normal"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:390
+msgid "Italic"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:391
+msgid "Bold"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/FT/plugin/options-framework/includes/class-options-sanitization.php:392
+msgid "Bold Italic"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/bottom.php:10
+msgid "Archive"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/bottom.php:17
+msgid "Meta"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/functions.php:55
+msgid "Primary Navigation"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/functions.php:96
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/functions.php:97
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: Desktop/Desktop/Ureeka/lib/add_meta_box.php:7
+msgid "Book review details"
+msgstr "详情"
+
+#: Desktop/Desktop/Ureeka/lib/add_meta_box.php:19
+#, fuzzy
+msgid "Book author"
+msgstr "作者"
+
+#: Desktop/Desktop/Ureeka/lib/add_meta_box.php:20
+msgid "Name of the book author"
+msgstr "书籍作者的名字"
+
+#: Desktop/Desktop/Ureeka/lib/add_meta_box.php:26
+msgid "Book rating score"
+msgstr "评分"
+
+#: Desktop/Desktop/Ureeka/lib/add_meta_box.php:27
+msgid "Give a rating between 0 to 5."
+msgstr "给一个0到5之间的评分"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:8
+msgctxt "post type general name"
+msgid "Books"
+msgstr "书籍列表"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:9
+msgctxt "post type singular name"
+msgid "Book"
+msgstr "书"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:10
+msgctxt "book"
+msgid "Add New"
+msgstr "添加"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:11
+msgid "Add New Book"
+msgstr "添加新书"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:12
+msgid "Edit Book"
+msgstr "编辑"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:13
+msgid "New Book"
+msgstr "添加新书"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:14
+msgid "View Book"
+msgstr "预览该书"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:15
+msgid "Search Books"
+msgstr "搜索书籍"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:16
+msgid "No books found"
+msgstr "还没有添加书，点击上方添加按钮开始吧"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:17
+msgid "No books found in Trash"
+msgstr "回收站里没有被删除的书籍"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:19
+msgid "Book"
+msgstr "书籍"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:42
+msgctxt "taxonomy general name"
+msgid "Genre"
+msgstr "类别"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:43
+msgctxt "taxonomy singular name"
+msgid "Genre"
+msgstr "类别"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:44
+msgid "Search Genre"
+msgstr "搜索类别"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:45
+msgid "All Genre"
+msgstr "所有类别"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:46
+msgid "Parent Genre"
+msgstr "父类别"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:47
+msgid "Parent Genre:"
+msgstr "父类别："
+
+#: Desktop/Desktop/Ureeka/lib/books.php:48
+msgid "Edit Genre"
+msgstr "编辑类别"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:49
+msgid "Update Genre"
+msgstr "更新类别"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:50
+msgid "Add New Genre"
+msgstr "添加新类别"
+
+#: Desktop/Desktop/Ureeka/lib/books.php:51
+msgid "New Genre Name"
+msgstr "新类别名"
